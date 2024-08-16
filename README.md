@@ -32,7 +32,7 @@ Ensure you have the following installed:
 
    ```bash
    git clone https://github.com/yourusername/portfolio-site.git
-   cd portfolio-site
+   cd portfolio-site](https://github.com/VTushar2003/portfoliosite.git)
    
 Deployment
 Deploy the contents of the dist directory to your preferred hosting service. Common options include:
