@@ -1,0 +1,31 @@
+ @font-face {
+    font-family: "GRIFTER";
+    src: url("./assets/grifterbold.otf");
+}
+@font-face {
+    font-family: Sans;
+    src: url("./assets/EudoxusSans-Regular-BF659b6cb1d4714.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Sans;
+    scroll-behavior: smooth   ;
+    color: white;
+}
+
+::-webkit-scrollbar{
+    background: color #a0a0a0;;
+    width:10px;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#DCFF7E;
+    border-radius: 15px;
+}

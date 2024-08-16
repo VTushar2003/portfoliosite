@@ -1,0 +1,25 @@
+.socialmedia{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.6rem;
+}
+
+
+.socialmedia a i:hover{
+    color: #DCFF7E;
+}
+
+    @media (max-width : 380px ){
+        .scroll{
+            width: 40px;
+            
+        }
+        @media (max-width : 320px ){
+            .scroll{
+                width: 25px;
+            }
+        }
+    }

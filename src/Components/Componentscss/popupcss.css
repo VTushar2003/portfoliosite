@@ -1,0 +1,115 @@
+
+/* animation */
+@keyframes anvil {
+    100% {
+      transform: scale(1) translateY(0px);
+      opacity: 1;
+      box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+    }
+    10% {
+        transform: scale(0.96) translateY(0px);
+        opacity: 0;
+        box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+    }
+    0% {
+    transform: scale(1) translateY(100px);
+      opacity: 0;
+      box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+    }
+  }
+  .my-popup-content {
+    -webkit-animation: anvil 0.5s cubic-bezier(0.5, 0.1, 0.36, 1) forwards;
+  }
+
+
+
+  .my-popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+  }
+  [data-popup='tooltip'].my-popup-overlay {
+    background: transparent;
+  }
+
+  #email{
+    background-color: transparent;
+    border: 1px solid #a0a0a0;
+    margin-top: 10px;
+    color: white;
+  }
+  #email::placeholder{
+    content: "";
+    color: #a0a0a0;
+  }
+
+  .message{
+    background-color: transparent;
+    border: 1px solid #a0a0a0;
+    margin-top: 10px;
+    color: white;
+    
+  }
+  .message::placeholder{
+    content: "";
+    color: #a0a0a0;
+  }
+/* 
+  @media (max-width : 768px ){
+    .message{
+        height: 4rem;
+    }
+    #email{
+      height: 4rem;
+    }
+    @media (max-width : 430px ){
+      .message{
+        height: 4em;
+    }
+    #email{
+      height: 4rem;
+    }
+    }
+    @media (max-width : 380px ){
+      .message{
+        height: 2em;
+        width:50%;
+        
+    }
+    #email{
+      width:50%;
+      height: 4rem;
+    }
+    } */
+  @media (max-width: 380px){
+    .mm{
+      margin-top: -20px;
+    }     
+    .mm h1{
+      margin-bottom: -5px;
+    } 
+    .message{
+           height: 50%;
+           font-weight: 800;
+          
+        }
+        #email{
+        height: 4rem;
+        font-weight: 800;
+         }
+        .rocket button{
+          
+          width: fit-content;
+          height: 70%;
+          word-break: break-all;
+          padding: 5px 0 10px 10px ;
+         
+        }
+        .rocket button .rocketimg{
+          width: 12px;
+          height: 12px;
+          
+        }
+        .my-popup-content{
+          width: 100%;
+        }
+    }

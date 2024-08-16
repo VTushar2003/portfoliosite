@@ -1,0 +1,44 @@
+nav{
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+nav ul{
+    width: 50%;
+    justify-content: space-evenly;
+}
+nav ul li a{    
+    color: #c1c1c1;
+}
+h2{
+    width: 50%;
+}
+
+nav ul li :hover {
+    color: #DCFF7E;
+}
+.sidebar {
+
+    position: fixed;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    flex-direction: column;
+    top: 0;
+    z-index: 999;
+}
+
+
+/* @media (max-width:767px) {
+    header nav ul li {
+        font-size: 10px;
+    }
+    nav h2 i{
+        font-size: 10px
+    }
+    #mail{
+        font-size: 10px;
+    }
+} */
