@@ -29,13 +29,15 @@ function Projects() {
                 </div>
                 <div className='pl-3 text-black text-justify'>
                   <h2 className='mb-3 text-sm'>{project.summary}</h2>
-                  <a className='font-semibold' href={project.address} target='_blank' rel="noopener noreferrer">
-                    Check Out
-                  </a>
+                  <button className='px-3 py-2 border-2 rounded-xl md:px-2 border-black'>
+                    <a className='font-semibold' href={project.address} target='_blank' rel="noopener noreferrer">
+                      Check Out<i className="ri-arrow-right-up-fill text-black"></i>
+                    </a>
+                  </button>
                 </div>
               </div>
               <div className='w-full md:w-1/2 sm:w-1/2 mt-4 md:mt-0'>
-                <img className='object-cover' src={project.source} alt={project.title} />
+                <img className='object-cover drop-shadow-xl' src={project.source} alt={project.title} />
               </div>
             </div>
           ))}
