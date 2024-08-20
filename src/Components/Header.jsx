@@ -28,7 +28,7 @@ function Header() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="#projects" smooth>Projects</Link></li>
             <li><Link to="#skills">Skills</Link></li>
-            <li><a href='https://drive.google.com/file/d/1J8aeHNKSBrsCqcF7balaqC9fw3e3F56S/view?usp=sharing' download="TusharResume.pdf" target='_blank' className='text-[#DCFF7E]'>My Resume<i className="ri-arrow-right-up-fill text-[#DCFF7E]"></i></a></li>
+            <li><a href='http://localhost:5173/src/assets/resume.pdf' download="TusharResume.pdf" target='_blank' className='text-[#DCFF7E]'>My Resume<i className="ri-arrow-right-up-fill text-[#DCFF7E]"></i></a></li>
           </ul>
         </nav>
       </header>
