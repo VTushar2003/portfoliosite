@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Inventra",
     source: bannerImage,
-    address: "https://example.com/",
+    address: "https://inventra-brown.vercel.app/",
     summary: "Developed an inventory and invoice management system using the MERN stack."
   },
 ];
