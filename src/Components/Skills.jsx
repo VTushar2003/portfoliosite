@@ -12,7 +12,7 @@ const SkillMeter = () => {
     { name: 'MySql', level: 5 },
     { name: 'Node.js', level: 6 },
     { name: 'HTML', level: 8 },
-    { name: 'Node.js', level: 6 }
+    { name: 'Express.js', level: 6 }
   ];
 
   const maxLevel = 10; // Maximum level to display the dots
